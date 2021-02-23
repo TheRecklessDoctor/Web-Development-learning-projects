@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = 'https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+    <link rel = 'stylesheet' href ='Survey Form Style Sheet.css'>
+    </head>
+    <body>
+        <div id ='background'>
+            <div id = 'layer'>
+               <div id = 'headings'>
+                <h1 id = "title" class = 'Titles'>FreeCodeCamp survey form</h1>
+                <p id = "description" class = 'Titles'> Thank you for taking the time to help us improve the platform</p>
+               </div>
+        <div id = 'form'>
+        <form id ='survey-form'>
+            
+        
+            <label for = "name" id='name-label'>Name</label><br>
+            <input type = "text" id ='name' name ="name"
+            placeholder="Enter your name" required><br><br>
+
+            <label for = "email" id ="email-label">Email</label><br>
+            <input type = "email" id ='email' name ="email"
+            placeholder="Enter your email"  pattern="[A-Za-z0-9]+@[A-Za-z]+.[A-Za-z]+" required><br><br>
+
+            <label for = "number" id = 'number-label'>Age</label><br>
+            <input type = "number" id ='number' name ="number" pattern="[0-9]{2}" min = '5' max = "85" 
+            placeholder="Age"><br><br>
+
+            <label for = "dropdown" id ="dropdown-label">Select an option</label><br>
+            <select id ="dropdown" name = "dropdown" >
+                <option value = "select current role">select current role</option>
+                <option value = "Student">Student</option>
+                <option value = "full time job">full time job</option>
+                <option value = "homemaker">homemaker</option>
+                <option value = "prefer not to say">prefer not to say</option>
+            </select><br><br>
+             
+             <p>Would you recommend FreeCodeCamp to a friend</p>
+            <input type ='radio' id ="Definitely" name ='Recommendations' value ='Definitely'>
+            <label for ='Definitely'>Definitely</label><br>
+            <input type ='radio' id ="Maybe" name ='Recommendations' value = 'Maybe'>
+            <label for ='Maybe'>Maybe</label><br>
+            <input type ='radio' id ="Not sure" name ='Recommendations' value = 'Not Sure'>
+            <label for ='Not sure'>Not sure</label><br><br>
+            
+            <p id='bigH'> what would you like to see improved?(check all that apply)</p>
+            <input type ='checkbox' id = 'front-end projects' value = 'front-end projects' name = 'checkbox1'>
+            <label for = 'front-end projects'>front-end projects</label><br>
+
+            <input type ='checkbox' id = 'back-end projects' value = 'back-end projects' name = 'checkbox2'>
+            <label for = 'back-end projects'>back-end projects</label><br>
+
+            <input type ='checkbox' id = 'Data Visualisation' value = 'Data Visualisation' name = 'checkbox3'>
+            <label for = 'Data Visualisation'>Data Visualisation</label><br>
+            <input type ='checkbox' id = 'Challenges' value = 'Challenges' name = 'checkbox4'>
+            <label for = 'Challenges'>Challenges</label>
+            <input type ='checkbox' id = 'Open source community' value = 'Open source community' name = 'checkbox5'>
+            <label for = 'Open source community'>Open source community</label><br><br>
+
+
+            <p id = 'textA'>Any Comments or suggestions?</p>
+            <textarea name = 'message'  rows = 5 cols = 60 id = 'area'>Enter your comments here....</textarea><br><br>
+
+
+            <input type ="submit" value = 'submit' id = "submit">
+       
+        </form>
+       </div>
+
+
+    </div>
+    </div>
+    </body>
+</html>
