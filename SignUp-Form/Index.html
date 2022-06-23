@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Include external css stylesheet-->
+    <link rel="stylesheet" href = "Index.css">
+
+    <title>Signup Form</title>
+</head>
+<body>
+    <div id="main-div">
+        <div id="image-section">
+            <div id="logo-section">
+                <img src="Assets/Logo.png" alt="Company Logo" id="logo">
+                <h1 id="LogoTitle">ODIN</h1>
+            </div>
+        </div>
+        <div id="form-section">
+            <div id="intro-para">
+                <p id="first" class="paragraphs">This is not a real online service. You know you need something like this in your life to 
+                    help you realise your deepest dreams.
+                </p>
+                <p class="paragraphs"  id="middle">Sign up <span class="italics">now</span> to get started.</p>
+                <p class="paragraphs" id="Second">You <span class="italics">know</span> you want to!</p>
+            </div>
+            <div id="Actual-form">
+                <form>
+                    <div id="form-data">
+
+                    <h2>Lets do this!</h2>
+
+                    <fieldset class="name Details">
+
+                        <div class="label-inputdiv">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" name="firstname">
+                        </div>
+
+                        <div class="label-inputdiv">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="lastname">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="otherDetails Details">
+
+                        <div class="label-inputdiv">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="label-inputdiv">
+                        <label for="phonenumber">Phone number</label>
+                        <input type="text" id="phonenumber" name="phonenumber">
+                        </div>
+                        
+                    </fieldset>
+
+
+                    <fieldset class="password Details">
+
+                        <div class="label-inputdiv">
+                        <label for="passoword-first">Password</label>
+                        <input type="password" id="passoword-first" class ="error" name="password-first">
+                        </div>
+
+                        <div class="label-inputdiv">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="password" id="password-confirm" class ="error" name="password-confirm">
+                        </div>
+                        
+                    </fieldset>
+                    
+                    </div>
+
+                    <div id = "button-section">
+                        <button type="submit">Create Account</button>
+                        <p id="log-in-section">Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                    
+
+                </form>
+            </div>
+            <div id="whitespace"> </div>
+        </div>
+    </div>
+    
+</body>
+</html>
