@@ -8,10 +8,14 @@
     <!--Include external css stylesheet-->
     <link rel="stylesheet" href = "Index.css">
 
+    <!-- external javascript file -->
+    
     <title>Signup Form</title>
 </head>
 <body>
     <div id="main-div">
+
+        <!-- Image and logo(left side) -->
         <div id="image-section">
             <div id="logo-section">
                 <img src="Assets/Logo.png" alt="Company Logo" id="logo">
@@ -26,6 +30,8 @@
                 <p class="paragraphs"  id="middle">Sign up <span class="italics">now</span> to get started.</p>
                 <p class="paragraphs" id="Second">You <span class="italics">know</span> you want to!</p>
             </div>
+
+            <!-- intro paragraph, form and log in line(right side) -->
             <div id="Actual-form">
                 <form>
                     <div id="form-data">
@@ -65,13 +71,14 @@
 
                         <div class="label-inputdiv">
                         <label for="passoword-first">Password</label>
-                        <input type="password" id="passoword-first" class ="error" name="password-first">
+                        <input type="password" id="password-first" class ="error" name="password-first">
                         </div>
 
                         <div class="label-inputdiv">
                         <label for="password-confirm">Confirm Password</label>
-                        <input type="password" id="password-confirm" class ="error" name="password-confirm">
-                        </div>
+                        <input type="password" id="password-confirm" class ="error" name="password-confirm" >
+                    
+                    </div>
                         
                     </fieldset>
                     
@@ -88,6 +95,6 @@
             <div id="whitespace"> </div>
         </div>
     </div>
-    
+<script src="index.js"></script>
 </body>
 </html>

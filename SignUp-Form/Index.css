@@ -1,7 +1,10 @@
+/* global styles and fonts */
 @font-face {
     font-family: "NorseFont";
     src: url(Assets/Norse-Bold.otf);
 }
+
+
 
 html,body{
     height: 100vh;
@@ -14,6 +17,8 @@ html,body{
     padding: 0px;
 }
 
+
+/* area specific styles */
 #main-div{
     height: 100%;
     display: flex;
@@ -65,6 +70,7 @@ html,body{
     opacity: 1;
 }
 
+/* for text that needs to stand out */
 span{
     font-weight: bolder;
     font-style: italic;
@@ -89,6 +95,7 @@ span{
     align-items: flex-start;
     
 }
+/* intro paragraph padding */
 #first{
     margin-bottom: 0px;
 }
@@ -113,6 +120,7 @@ form{
     height:70%;
 }
 
+/* border around details section of the form */
 .Details{
     display: flex;
     flex-direction: row;
@@ -138,7 +146,9 @@ input:focus{
     box-shadow: 0px 3px 4px lightgrey;
 }
 
-button[type=submit]{
+
+
+button[type="submit"]{
     padding:5px;
     background-color: #596D48;
     height:30px;
@@ -149,6 +159,8 @@ button[type=submit]{
     box-shadow: 4px 4px 4px lightgray;
 }
 
+
+/* last sentence with log in part */
 #log-in-section{
     margin-top: 5px;
     margin-left: 55px;
